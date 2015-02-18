@@ -6,8 +6,8 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
         wp_register_script( 'vegasupload', plugins_url( '../js/media.js', __FILE__ ), array( 'jquery' ), null, true );
         wp_localize_script( 'vegasupload', 'vegasupload',
             array(
-                'title'     => __( 'Upload or Choose Your Custom Image File', 'vegas' ), // This will be used as the default title
-                'button'    => __( 'Insert Image into Input Field', 'vegas' )            // This will be used as the default button text
+                'title'     => __( 'Upload or Choose Your Custom Image File', 'wpvegas' ), // This will be used as the default title
+                'button'    => __( 'Insert Image into Input Field', 'wpvegas' )            // This will be used as the default button text
             )
         );
         wp_enqueue_script( 'vegasupload' );

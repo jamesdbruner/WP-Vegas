@@ -24,6 +24,16 @@ Author URI: http://jamesdbruner.com
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+/**
+ * Load text-domain - LS
+ */
+add_action( 'init', 'wpvegas_load_textdomain' ); 
+function wpvegas_load_textdomain() {
+	$domain = 'wpvegas';
+	load_plugin_textdomain( $domain, FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
+}
+
+
 class vegas{
 
 	// Constructor for the class.
@@ -95,8 +105,8 @@ class vegas{
 
     //Add Vegas Metaboxes
     public function vegas_metaboxes_add() {
-	add_meta_box( 'vegas_images', __( 'Vegas Slides', 'vegas_images' ), array( $this, 'vegas_meta_box_display' ), 'vegas', 'normal', 'default' );
-	add_meta_box( 'vegas_shortcode', __( 'Vegas Shortcode', 'vegas_shortcode' ), array( $this, 'vegas_meta_box_shortcode' ), 'vegas', 'normal', 'default' );  //shortcode generator
+	add_meta_box( 'vegas_images', __( 'Vegas Slides', 'wpvegas' ), array( $this, 'vegas_meta_box_display' ), 'vegas', 'normal', 'default' );
+	add_meta_box( 'vegas_shortcode', __( 'Vegas Shortcode', 'wpvegas' ), array( $this, 'vegas_meta_box_shortcode' ), 'vegas', 'normal', 'default' );  //shortcode generator
     }
 
     //Display images metabox
