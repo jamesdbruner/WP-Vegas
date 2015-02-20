@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Vegas\n"
+"POT-Creation-Date: 2015-02-18 22:49+0100\n"
+"PO-Revision-Date: 2015-02-18 23:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: methods/metaboxes/vegas_image_metabox.php:10
+msgid "Add Slides"
+msgstr "Aggiungi Slides"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:10
+msgid "Generate Your Own Shortcode"
+msgstr "Genera il tuo Shortcode"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:12
+msgid "Example Shortcode:"
+msgstr "Shortcode di esempio:"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:16
+msgid "Generate a New Shortcode"
+msgstr "Genera un nuovo Shortcode"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:18
+msgid "Your Custom Shortcode:"
+msgstr "Il tuo Shortcode personalizzato:"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:23
+msgid "Shortcode Generator"
+msgstr "Generatore di Shortcode"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:24
+msgid "Shortcode ID"
+msgstr "ID dello Shortcode"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:25
+#: methods/metaboxes/vegas_shortcode_metabox.php:38
+msgid "Fade"
+msgstr "Dissolvenza"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:26
+#: methods/metaboxes/vegas_shortcode_metabox.php:40
+msgid "Delay"
+msgstr "Ritardo"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:27
+#: methods/metaboxes/vegas_shortcode_metabox.php:42
+msgid "Overlay"
+msgstr "Sovrapposizione"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:28
+#: methods/metaboxes/vegas_shortcode_metabox.php:44
+msgid "Arrows"
+msgstr "Frecce"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:28
+#: methods/metaboxes/vegas_shortcode_metabox.php:29
+#: methods/metaboxes/vegas_shortcode_metabox.php:30
+#: methods/metaboxes/vegas_shortcode_metabox.php:31
+msgid "No"
+msgstr "No"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:28
+#: methods/metaboxes/vegas_shortcode_metabox.php:29
+#: methods/metaboxes/vegas_shortcode_metabox.php:30
+#: methods/metaboxes/vegas_shortcode_metabox.php:31
+msgid "Yes"
+msgstr "Si"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:29
+#: methods/metaboxes/vegas_shortcode_metabox.php:46
+msgid "Autoplay"
+msgstr "Partenza automatica"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:30
+#: methods/metaboxes/vegas_shortcode_metabox.php:48
+msgid "Poster"
+msgstr "Poster"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:31
+#: methods/metaboxes/vegas_shortcode_metabox.php:50
+msgid "Random"
+msgstr "Casuale"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:32
+msgid "Generate Shortcode!"
+msgstr "Genera Shortcode!"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:33
+msgid "Explain What All of This Means..."
+msgstr "Spiega cosa significa tutto questo..."
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:35
+msgid "Generated Shortcode:"
+msgstr "Shortcode generato:"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:39
+msgid ""
+"The amount of time it takes to fade from one images to the next (in "
+"miliseconds)"
+msgstr ""
+"Il tempo impiegato per la dissolvenza tra un'immagine e la seguente (in "
+"millisecondi)"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:41
+msgid ""
+"The amount of time the slideshow will wait before fading to the next image "
+"(also in miliseconds)"
+msgstr ""
+"Il tempo che lo slideshow attenderà prima di iniziare la dissolvenza per "
+"l'immagine seguente (in millisecondi)"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:43
+#, php-format
+msgid ""
+"You can place an image like a pattern over top of the slideshow using the "
+"URL of the pattern.  Take the <a href=\"%s\" target=\"_BLANK\">demo site</a> "
+"for example.  It has a subtle overlay over all of the images.  To use an "
+"overlay image first upload your image/pattern to your media library and then "
+"use the URL for the overlay parameter.  E.g. [vegas id=10 fade=5000 delay = "
+"4000 <strong>overlay=yourdomain.com/yourpattern.png</strong> arrows=no "
+"autoplay=no poster=no]"
+msgstr ""
+"Puoi sovrapporre un'immagine come una trama inserendo l'URL della trama. Ad "
+"esempio, il <a href=\"%s\" target=\"_BLANK\">sito dimostrativo</a> ha una "
+"sovrapposizione molto sottile per tutte le immagini. Per utilizzare una "
+"sovrapposizione, innanzitutto occorre caricare l'immagine/trama nella "
+"libreria dei media e poi utilizzare l'URL per il campo del parametro di "
+"sovrapposizione. Esempio:  [vegas id=10 fade=5000 delay = 4000 "
+"<strong>overlay=tuodominio.com/tuatrama.png</strong> arrows=no autoplay=no "
+"poster=no]"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:45
+msgid ""
+"Weather or not to display next/previous arrows so users can navigate through "
+"the slideshow"
+msgstr ""
+"Se mostrare o meno le frecce precedente/successivo per la navigazione dello "
+"slideshow"
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:47
+msgid ""
+"Weather or not to automatically start playing through the slideshow when the "
+"user first loads the page."
+msgstr "Se lo slideshow parte in automatico quando l'utente carica la pagina."
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:49
+msgid ""
+"The slideshow will stop on the last image in the slideshow but autoplay must "
+"be enabled for this to work."
+msgstr ""
+"Lo slideshow si fermerà quando raggiunge l'ultima immagine ma Autopartenza "
+"deve essere abilitato perché questo parametro funzioni."
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:51
+msgid ""
+"The slides in your slideshow will display in a random ordrer if this is set "
+"to yes."
+msgstr ""
+"Le immagini nello slideshow appariranno in ordine casuale se questo è "
+"impostato su Si."
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:53
+msgid ""
+"After you've generated your shortcode remember to hit Publish or Update so "
+"you can come back and copy/paste the shortcode later if you need to!"
+msgstr ""
+"Dopo aver generato il tuo shortcode, ricordati di selezionare Pubblica o "
+"Aggiorna per salvare lo slideshow e le opzioni dello shortcode, in modo da "
+"poter fare copia/incolla quando necessario in seguito."
+
+#: methods/metaboxes/vegas_shortcode_metabox.php:54
+msgid "Thanks! Now take me back to the shortcode generator!"
+msgstr "Grazie! Ora riportami al generatore di shortcode!"
+
+#: methods/vegas_cpt.php:4
+msgid "WP Vegas"
+msgstr "WP Vegas"
+
+#: methods/vegas_cpt.php:10
+msgid "Vegas Slideshows"
+msgstr "Slideshow Vegas"
+
+#: methods/vegas_cpt.php:11
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: methods/vegas_cpt.php:13
+msgid "View Slideshows"
+msgstr "Visualizza Slideshow"
+
+#: methods/vegas_cpt.php:14
+msgctxt "Slideshow"
+msgid "Add Slideshow"
+msgstr "Aggiungi Slideshow"
+
+#: methods/vegas_cpt.php:15 methods/vegas_cpt.php:17
+msgid "New Slideshow"
+msgstr "Nuovo Slideshow"
+
+#: methods/vegas_cpt.php:16
+msgid "Edit Slideshow"
+msgstr "Modifica Slideshow"
+
+#: methods/vegas_cpt.php:18
+msgid "View Slideshow"
+msgstr "Visualizza Slideshow"
+
+#: methods/vegas_cpt.php:19
+msgid "Search Your Slideshows"
+msgstr "Cerca Slideshow"
+
+#: methods/vegas_cpt.php:20
+msgid "Nothing found"
+msgstr "Nessun risultato trovato"
+
+#: methods/vegas_cpt.php:21
+msgid "Nothing found in Trash"
+msgstr "Nessun risultato trovato nel Cestino"
+
+#: methods/vegas_cpt.php:28
+msgctxt "URL Slug"
+msgid "vegas_slideshows"
+msgstr ""
+
+#: methods/vegas_cpt_columns.php:3
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: methods/vegas_cpt_columns.php:4
+msgid "Author"
+msgstr "Autore"
+
+#: methods/vegas_custom_messages.php:6 methods/vegas_custom_messages.php:9
+msgid "Slideshow updated."
+msgstr "Slideshow aggiornato."
+
+#: methods/vegas_custom_messages.php:7
+msgid "Custom Field updated."
+msgstr "Campo Personalizzato aggiornato."
+
+#: methods/vegas_custom_messages.php:8
+msgid "Custom Field deleted."
+msgstr "Campo Personalizzato eliminato."
+
+#: methods/vegas_custom_messages.php:11
+#, php-format
+msgid "Slideshow restored to revision from %s"
+msgstr "Slideshow ripristinato alla revisione del %s"
+
+#: methods/vegas_custom_messages.php:12
+msgid "Slideshow published."
+msgstr "Slideshow pubblicato."
+
+#: methods/vegas_custom_messages.php:13
+msgid "Slideshow saved."
+msgstr "Slideshow salvato."
+
+#: methods/vegas_custom_messages.php:14
+msgid "Slideshow submitted."
+msgstr "Slideshow inviato."
+
+#: methods/vegas_custom_messages.php:15
+#, php-format
+msgid "Slideshow scheduled for: <strong>%1$s</strong>."
+msgstr "Slideshow programmato per il : <strong>%1$s</strong>."
+
+#: methods/vegas_custom_messages.php:17
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: methods/vegas_custom_messages.php:18
+msgid "Slideshow draft updated."
+msgstr "Bozza dello Slideshow aggiornata."
+
+#: methods/vegas_media.php:9
+msgid "Upload or Choose Your Custom Image File"
+msgstr "Carica o scegli il file di immagine"
+
+#: methods/vegas_media.php:10
+msgid "Insert Image into Input Field"
+msgstr "Inserisce Immagine nel campo input"
+
+#: vegas.php:110
+msgid "Vegas Slides"
+msgstr "Slides Vegas"
+
+#: vegas.php:111
+msgid "Vegas Shortcode"
+msgstr "Shortcode Vegas"

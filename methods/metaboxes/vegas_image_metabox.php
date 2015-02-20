@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
     wp_enqueue_script('vegas-reorder-remove-img'); ?>
     <form name="post" method="post">
         <input type="hidden" name="imgIDs" id="imgIDs" value="<?php echo $imgIDs; ?>" />
-        <input type= "button" class="button" name="vegas_image_button" id="vegas_image_button" value="Add Slides" />
+        <input type= "button" class="button" name="vegas_image_button" id="vegas_image_button" value="<?php _e('Add Slides', 'wpvegas'); ?>" />
         <div id="thumbnails">
 <?php 
         $image = explode(",", $imgIDs);
